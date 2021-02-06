@@ -54,3 +54,18 @@ l1.forEach( (element, index) => {
 
 const pattern = /[a-z]{6,}/; 
 let index = s.search(pattern);
+
+// date
+
+const now = new Date(); 
+
+year = now.getFullYear();
+date = now.getDate();
+day = now.getDay();
+timestamp = now.getTime();
+
+st = now.toDateString();
+const timestamp = 1675938474900;
+const dt = new Date(timestamp);
+
+
